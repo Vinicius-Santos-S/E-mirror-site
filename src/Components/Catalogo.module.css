@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.catalog-class {
+    display: flex;
+}
+
+.catalog-class .camera-clothes-container {
+    padding: 0px 0px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.camera-clothes-container .active-clothes-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 6px 4px rgba(0, 0, 0, 0.1)
+}
+
+.active-clothes-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active-clothes-container div img {
+    height: 300px;
+    width: 300px;
+}
+
+.catalog-menu-fechado {
+    /* display: flex; */
+    height: 0px;
+    content-visibility: auto;
+    transition-duration: 1s;
+}
+
+.catalog-menu-aberto {
+    height: 1000px;
+    content-visibility: auto;
+    transition-duration: 1s;
+}
+
+.catalog-container-class {
+    padding: 0px 15px 0px 15px;
+}
+
+.catalog-container-class .buttons {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 10px 20px 10px;
+    gap: 5px;
+    justify-content: space-between;
+    box-shadow: 2px 2px 6px 4px rgba(0, 0, 0, 0.1)
+}
+
+.buttons .buttons-div {
+    height: auto;
+    width: 100%;
+    background-image: url("../assets/Catálogo/ImgChapeuBtn.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons .buttons-div:nth-child(2) {
+    background-image: url("../assets/Catálogo/ImgOculosBtn.png");
+}
+
+.buttons .buttons-div:nth-child(3) {
+    background-image: url("../assets/Catálogo/ImgCamisaBtn.png");
+}
+
+.buttons .buttons-div:nth-child(4) {
+    background-image: url("../assets/Catálogo/ImgMoletomBtn.png");
+}
+
+.buttons .buttons-div h2 {
+    background-color: white;
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+    padding: 1px;
+    font-size: 1rem;
+    box-shadow: 2px 2px 6px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.catalog-container-class h2 {
+    text-align: center;
+}
+
+.catalog-container-class .catalog-itens {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.catalog-itens .item-class {
+    background-color: white;
+}
+
+.catalog-itens .item-class {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.item-class img {
+    height: 100px;
+    width: auto;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+    body {
+        background-image: url("../assets/Catálogo/Ellipse.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 200px;
+        background-position: initial;
+    }
+
+    h1 {
+        align-items: center;
+    }
+
+    img {
+        height: 30px;
+    }
+
+    .catalog-class {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .catalog-class .camera-clothes-container {
+        display: flex;
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 15px 0px 15px;
+        gap: 20px;
+    }
+
+    .catalog-class .active-clothes-container {
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 2px 2px 6px 4px rgba(0, 0, 0, 0.1);
+        gap: 20px;
+    }
+
+    .active-clothes-container div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .active-clothes-container div img {
+        height: auto;
+        width: 100%;
+    }
+
+    .catalog-menu-fechado {
+        height: 0px;
+        content-visibility: auto;
+        transition-duration: 1s;
+    }
+
+    .catalog-menu-aberto {
+        height: 1000px;
+        content-visibility: auto;
+        transition-duration: 1s;
+    }
+
+    .catalog-container-class {
+        padding: 0px 15px 0px 15px;
+    }
+
+    .catalog-container-class .buttons {
+        display: flex;
+        background-color: white;
+        border-radius: 10px;
+        padding: 15px 10px 20px 10px;
+        gap: 5px;
+        justify-content: space-between;
+        box-shadow: 2px 2px 6px 4px rgba(0, 0, 0, 0.1)
+    }
+
+    .buttons .buttons-div {
+        height: auto;
+        width: 100%;
+        background-image: url("../assets/Catálogo/ImgChapeuBtn.png");
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    .buttons .buttons-div:nth-child(2) {
+        background-image: url("../assets/Catálogo/ImgOculosBtn.png");
+    }
+
+    .buttons .buttons-div:nth-child(3) {
+        background-image: url("../assets/Catálogo/ImgCamisaBtn.png");
+    }
+
+    .buttons .buttons-div:nth-child(4) {
+        background-image: url("../assets/Catálogo/ImgMoletomBtn.png");
+    }
+
+    .buttons .buttons-div h2 {
+        background-color: white;
+        border-radius: 5px;
+        height: auto;
+        width: auto;
+        padding: 1px;
+        font-size: 1rem;
+        box-shadow: 2px 2px 6px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .catalog-container-class h2 {
+        text-align: center;
+    }
+
+    .catalog-container-class .catalog-itens {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+    .catalog-itens .item-class {
+        background-color: white;
+    }
+
+    .catalog-itens .item-class {
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .item-class img {
+        height: auto;
+        width: 100%;
+    }
+
+    .item-class .item-info {
+        height: auto;
+        width: 100%;
+    }
+
+}
+
+/* 
+    .catalog-container-class h2 {
+        text-align: center;
+        background-color: white;
+
+    }
+
+    .catalog-container-class .catalog-itens {
+        margin-left: 20px;
+        margin-right: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+    .catalog-container-class .catalog-itens h2 {
+        text-align: center;
+    }
+
+    .catalog-container-class .catalog-itens .item-class {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 15px;
+        padding: 15px;
+        box-shadow: 0px 0px 18px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .catalog-container-class .catalog-itens .item-class img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .catalog-container-class .catalog-itens .item-class .item-info {
+        margin-top: 5px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    } */

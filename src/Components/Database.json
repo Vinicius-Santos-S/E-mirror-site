@@ -1,0 +1,120 @@
+{
+   "Chapeus" : [
+      {
+         "parte": "Chapeu",
+         "img" : "/src/Components/Camera/Roupas/Chapeus/Touca.png",
+         "SizeAdjustValue" : 100,
+         "nome" : "Touca vermelha",
+         "modelo" : "Touca normal",
+         "descricao" : "Descrição...",
+         "preco" : "R$ --,--"
+      },
+      {
+         "parte": "Chapeu",
+         "img" : "/src/Components/Camera/Roupas/Chapeus/Cowboy.png",
+         "SizeAdjustValue" : 150,
+         "nome" : "Chapeu de Cowboy",
+         "modelo" : "Chapeu normal",
+         "descricao" : "Descrição...",
+         "preco" : "R$ --,--"
+      },
+      {
+         "parte": "Chapeu",
+         "img" : "/src/Components/Camera/Roupas/Chapeus/Coelinho.png",
+         "SizeAdjustValue" : 100,
+         "nome" : "Tiara de Coelinho",
+         "modelo" : "Tiara normal",
+         "descricao" : "Descrição...",
+         "preco" : "R$ --,--"
+      },
+      {
+         "parte": "Chapeu",
+         "img" : "/src/Components/Camera/Roupas/Chapeus/Fedora.png",
+         "SizeAdjustValue" : 200,
+         "nome" : "Fedora Preta",
+         "modelo" : "Fedora normal",
+         "descricao" : "Descrição...",
+         "preco" : "R$ --,--"
+      }
+   ],
+   "Oculos" : [
+      {
+         "parte": "Oculos",
+         "img" : "/src/Components/Camera/Roupas/Oculos/oculosVermelho.png",
+         "nome" : "Oculos Vermelho",
+         "modelo" : "Oculos normal",
+         "descricao" : "Descrição...",
+         "preco" : "R$ --,--"
+      },
+      {
+         "parte": "Oculos",
+         "img" : "/src/Components/Camera/Roupas/Oculos/oculosBranco.png",
+         "nome" : "Oculos de armação fina",
+         "modelo" : "Oculos normal",
+         "descricao" : "Descrição...",
+         "preco" : "R$ --,--"
+      },
+      {
+         "parte": "Oculos",
+         "img" : "/src/Components/Camera/Roupas/Oculos/oculosAzul.png",
+         "nome" : "Oculos Azul",
+         "modelo" : "Oculos normal",
+         "descricao" : "Descrição...",
+         "preco" : "R$ --,--"
+      }
+
+   ],
+   "Camisas" : [
+      {
+         "parte": "Camisa",
+         "img" : "/src/Components/Camera/Roupas/Camisas/CamisaPreta.png",
+         "nome" : "Camiseta Preto",
+         "modelo" : "Camiseta Normal",
+         "descricao" : "Descrição...",
+         "preco" : "R$ --,--"
+      },
+      {
+         "parte": "Camisa",
+         "img" : "/src/Components/Camera/Roupas/Camisas/CamisaAzul.png",
+         "nome" : "Camiseta Azul",
+         "modelo" : "Camiseta Normal",
+         "descricao" : "Descrição...",
+         "preco" : "R$ --,--"
+      },
+      {
+         "parte": "Camisa",
+         "img" : "/src/Components/Camera/Roupas/Camisas/CamisaBranca.png",
+         "nome" : "Camiseta Branca",
+         "modelo" : "Camiseta Normal",
+         "descricao" : "Descrição...",
+         "preco" : "R$ --,--"
+      }
+      
+   ],
+   "Moletons" : [
+      {
+         "parte": "Moletom",
+         "img" : "/src/Components/Camera/Roupas/Moletons/MoletomBranco.png",
+         "nome" : "Moletom Branco",
+         "modelo" : "Moletom Normal",
+         "descricao" : "Descrição...",
+         "preco" : "R$ --,--"
+      },
+      {
+         "parte": "Moletom",
+         "img" : "/src/Components/Camera/Roupas/Moletons/MoletomLaranjaVerde.png",
+         "nome" : "Moletom Laranja",
+         "modelo" : "Moletom Normal",
+         "descricao" : "Descrição...",
+         "preco" : "R$ --,--"
+      },
+      {
+         "parte": "Moletom",
+         "img" : "/src/Components/Camera/Roupas/Moletons/MoletomPreto.png",
+         "nome" : "Moletom Preto",
+         "modelo" : "Moletom Normal",
+         "descricao" : "Descrição...",
+         "preco" : "R$ --,--"
+      }
+   ]
+}

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: raleway;
+}
+
+.main-class {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-class h2 {
+    font-size: 35px;
+}
+
+.section-div {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+}
+
+.section-div-header {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.section-div-header h2 {
+    font-size: 50px;
+    font-style: italic;
+    color: white;
+    margin: 0px;
+}
+
+.section-div-header img{
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+
+.section-div-aboutUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    height: 100%;
+    margin: 10px;
+}
+.section-div-aboutUs h2 {
+    color: white;
+}
+
+.section-div-aboutUs p {
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0px 35px 0px 35px;
+}
+
+.section-div-aboutUs img {
+    align-self: flex-end;
+    width: 55%;
+    height: auto;
+    z-index: 0;
+}
+
+.section-div-aboutUs div {
+    border-top: 1px solid white;
+    width: 200px;
+}
+
+.section-div-aboutProject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    height: 100%;
+    margin: 10px;
+}
+
+.section-div-aboutProject h2 {
+    color: white;
+    text-align: center;
+}
+
+.section-div-aboutProject .bar {
+    border-top: 1px solid white;
+    width: 200px;
+}
+
+.section-div-aboutProject p {
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0px 35px 0px 35px;
+}
+
+.section-div-aboutProject .link-access-div {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px 4px rgba(0, 0, 0, 0.1)
+}
+
+.section-div-aboutProject .link-access-div a {
+    text-decoration: none;
+    color: black;
+    font-style:italic;
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer-class {
+    background-color: #52473A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-class img {
+    height: auto;
+    width: 35%;
+}
+
+.footer-class h2 {
+    color: aliceblue;
+}
+
+.footer-class ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-class li {
+    color: white;
+}
