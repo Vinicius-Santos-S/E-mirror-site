@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import { useRef, useState } from 'react'
 import Camera from './Camera/Camera'
 // import Database from './Database.json'
 import Style from './Catalogo.module.css'
