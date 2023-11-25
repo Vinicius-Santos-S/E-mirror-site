@@ -6,12 +6,15 @@ import Touca from './Camera/Roupas/Chapeus/Touca.png'
 import Cowboy from './Camera/Roupas/Chapeus/Cowboy.png'
 import Fedora from './Camera/Roupas/Chapeus/Fedora.png'
 import Coelinho from './Camera/Roupas/Chapeus/Coelinho.png'
-import OculosVermelho from './Camera/Roupas/Chapeus/oculosVermelho.png'
-import OculosAzul from './Camera/Roupas/Chapeus/oculosAzul.png'
-import OculosBranco from './Camera/Roupas/Chapeus/oculosBranco.png'
+
+import OculosVermelho from './Camera/Roupas/Oculos/oculosVermelho.png'
+import OculosAzul from './Camera/Roupas/Oculos/oculosAzul.png'
+import OculosBranco from './Camera/Roupas/Oculos/oculosBranco.png'
+
 import CamisaAzul from './Camera/Roupas/Camisas/CamisaAzul.png'
 import CamisaBranca from './Camera/Roupas/Camisas/CamisaBranca.png'
 import CamisaPreta from './Camera/Roupas/Camisas/CamisaPreta.png'
+
 import MoletomBranco from './Camera/Roupas/Moletons/MoletomBranco.png'
 import MoletomLaranjaVerde from './Camera/Roupas/Moletons/MoletomLaranjaVerde.png'
 import MoletomPreto from './Camera/Roupas/Moletons/MoletomPreto.png'
