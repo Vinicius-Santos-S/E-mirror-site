@@ -2,16 +2,17 @@
 import React from "react"
 import Style from './Main.module.css'
 import logo from '../assets/Logo.png'
+import backgroundImg from '../assets/BackgroundImg'
 import { Link } from "react-router-dom";
 const Main = () => {
     const contents = [
         {
-            img: "/E-mirror-site/assets/Logo.png",
+            img: logo,
             img2: "",
             title: "Bem-Vindo!",
             text: "texto1",
             link: "",
-            imgBack: "/E-mirror-site/assets/Logo.png"
+            imgBack: backgroundImg
         },
         {
             img: "",
