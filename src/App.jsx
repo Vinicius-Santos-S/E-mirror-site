@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/E-mirror-site" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/Catalogo" element={<Catalogo />} />
         </Routes>
       </BrowserRouter>
