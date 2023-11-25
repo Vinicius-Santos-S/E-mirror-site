@@ -6,12 +6,12 @@ import { Link } from "react-router-dom";
 const Main = () => {
     const contents = [
         {
-            img: "../assets/Logo.png",
+            img: "/E-mirror-site/assets/Logo.png",
             img2: "",
             title: "Bem-Vindo!",
             text: "texto1",
             link: "",
-            imgBack: "../assets/Logo.png"
+            imgBack: "/E-mirror-site/assets/Logo.png"
         },
         {
             img: "",
@@ -19,7 +19,7 @@ const Main = () => {
             title: "Sobre nós",
             text: "Somos estudantes do ceap e com o nosso projeto temos o objetivo de mostrar o conceito de loja/provador virtual para o mundo",
             link: "",
-            imgBack: "src/assets/BackgroundImg2.jpg"
+            imgBack: "/E-mirror-site/assets/BackgroundImg2.jpg"
 
         },
         {
@@ -28,7 +28,7 @@ const Main = () => {
             title: "Sobre o projeto",
             text: "Com a imagem da câmera do dispositivo, nosso algoritmo detecta o corpo humano e desenha a roupa desejada pelo usuário",
             link: "/Catalogo",
-            imgBack: "src/assets/ugabuga.png"
+            imgBack: "/E-mirror-site/assets/ugabuga.png"
         }
     ]
 
