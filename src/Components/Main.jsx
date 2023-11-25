@@ -2,17 +2,16 @@
 import React from "react"
 import Style from './Main.module.css'
 import logo from '../assets/Logo.png'
-import backgroundImg from '../assets/BackgroundImg'
 import { Link } from "react-router-dom";
 const Main = () => {
     const contents = [
         {
-            img: logo,
+            img: "src/assets/.jpg",
             img2: "",
             title: "Bem-Vindo!",
             text: "texto1",
             link: "",
-            imgBack: backgroundImg
+            imgBack: "src/assets/BackgroundImg2.jpg"
         },
         {
             img: "",
@@ -20,7 +19,7 @@ const Main = () => {
             title: "Sobre nós",
             text: "Somos estudantes do ceap e com o nosso projeto temos o objetivo de mostrar o conceito de loja/provador virtual para o mundo",
             link: "",
-            imgBack: "/E-mirror-site/assets/BackgroundImg2.jpg"
+            imgBack: "src/assets/BackgroundImg2.jpg"
 
         },
         {
