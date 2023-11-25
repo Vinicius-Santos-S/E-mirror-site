@@ -11,7 +11,7 @@ const Main = () => {
             title: "Bem-Vindo!",
             text: "texto1",
             link: "",
-            imgBack: "../assets/BackgroundImg.png"
+            imgBack: "src/assets/Logo.png"
         },
         {
             img: "",
