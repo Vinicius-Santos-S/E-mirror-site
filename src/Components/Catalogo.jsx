@@ -1,8 +1,141 @@
 import React, { useRef, useState } from 'react'
 import Camera from './Camera/Camera'
-import Database from './Database.json'
+// import Database from './Database.json'
 import Style from './Catalogo.module.css'
+import Touca from './Camera/Roupas/Chapeus/Touca.png'
+import Cowboy from './Camera/Roupas/Chapeus/Cowboy.png'
+import Fedora from './Camera/Roupas/Chapeus/Fedora.png'
+import Coelinho from './Camera/Roupas/Chapeus/Coelinho.png'
+import OculosVermelho from './Camera/Roupas/Chapeus/oculosVermelho.png'
+import OculosAzul from './Camera/Roupas/Chapeus/oculosAzul.png'
+import OculosBranco from './Camera/Roupas/Chapeus/oculosBranco.png'
+import CamisaAzul from './Camera/Roupas/Camisas/CamisaAzul.png'
+import CamisaBranca from './Camera/Roupas/Camisas/CamisaBranca.png'
+import CamisaPreta from './Camera/Roupas/Camisas/CamisaPreta.png'
+import MoletomBranco from './Camera/Roupas/Moletons/MoletomBranco.png'
+import MoletomLaranjaVerde from './Camera/Roupas/Moletons/MoletomLaranjaVerde.png'
+import MoletomPreto from './Camera/Roupas/Moletons/MoletomPreto.png'
 
+const Database = {
+  "Chapeus" : [
+     {
+        "parte": "Chapeu",
+        "img" : Touca,
+        "SizeAdjustValue" : 100,
+        "nome" : "Touca vermelha",
+        "modelo" : "Touca normal",
+        "descricao" : "Descrição...",
+        "preco" : "R$ --,--"
+     },
+     {
+        "parte": "Chapeu",
+        "img" : Cowboy,
+        "SizeAdjustValue" : 150,
+        "nome" : "Chapeu de Cowboy",
+        "modelo" : "Chapeu normal",
+        "descricao" : "Descrição...",
+        "preco" : "R$ --,--"
+     },
+     {
+        "parte": "Chapeu",
+        "img" : Coelinho,
+        "SizeAdjustValue" : 100,
+        "nome" : "Tiara de Coelinho",
+        "modelo" : "Tiara normal",
+        "descricao" : "Descrição...",
+        "preco" : "R$ --,--"
+     },
+     {
+        "parte": "Chapeu",
+        "img" : Fedora,
+        "SizeAdjustValue" : 200,
+        "nome" : "Fedora Preta",
+        "modelo" : "Fedora normal",
+        "descricao" : "Descrição...",
+        "preco" : "R$ --,--"
+     }
+  ],
+  "Oculos" : [
+     {
+        "parte": "Oculos",
+        "img" : OculosVermelho,
+        "nome" : "Oculos Vermelho",
+        "modelo" : "Oculos normal",
+        "descricao" : "Descrição...",
+        "preco" : "R$ --,--"
+     },
+     {
+        "parte": "Oculos",
+        "img" : OculosBranco,
+        "nome" : "Oculos de armação fina",
+        "modelo" : "Oculos normal",
+        "descricao" : "Descrição...",
+        "preco" : "R$ --,--"
+     },
+     {
+        "parte": "Oculos",
+        "img" : OculosAzul,
+        "nome" : "Oculos Azul",
+        "modelo" : "Oculos normal",
+        "descricao" : "Descrição...",
+        "preco" : "R$ --,--"
+     }
+
+  ],
+  "Camisas" : [
+     {
+        "parte": "Camisa",
+        "img" : CamisaPreta,
+        "nome" : "Camiseta Preto",
+        "modelo" : "Camiseta Normal",
+        "descricao" : "Descrição...",
+        "preco" : "R$ --,--"
+     },
+     {
+        "parte": "Camisa",
+        "img" : CamisaAzul,
+        "nome" : "Camiseta Azul",
+        "modelo" : "Camiseta Normal",
+        "descricao" : "Descrição...",
+        "preco" : "R$ --,--"
+     },
+     {
+        "parte": "Camisa",
+        "img" : CamisaBranca,
+        "nome" : "Camiseta Branca",
+        "modelo" : "Camiseta Normal",
+        "descricao" : "Descrição...",
+        "preco" : "R$ --,--"
+     }
+     
+  ],
+  "Moletons" : [
+     {
+        "parte": "Moletom",
+        "img" : MoletomBranco,
+        "nome" : "Moletom Branco",
+        "modelo" : "Moletom Normal",
+        "descricao" : "Descrição...",
+        "preco" : "R$ --,--"
+     },
+     {
+        "parte": "Moletom",
+        "img" : MoletomLaranjaVerde,
+        "nome" : "Moletom Laranja",
+        "modelo" : "Moletom Normal",
+        "descricao" : "Descrição...",
+        "preco" : "R$ --,--"
+     },
+     {
+        "parte": "Moletom",
+        "img" : MoletomPreto,
+        "nome" : "Moletom Preto",
+        "modelo" : "Moletom Normal",
+        "descricao" : "Descrição...",
+        "preco" : "R$ --,--"
+     }
+  ]
+}
 
 const Catalogo = () => {
   const bodyUsingClothes = useRef({

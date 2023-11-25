@@ -2,6 +2,11 @@
 import React from "react"
 import Style from './Main.module.css'
 import logo from '../assets/Logo.png'
+import backgroundImg from '../assets/BackgroundImg.png'
+import backgroundImg2 from '../assets/BackgroundImg2.jpg'
+import backgroundImg3 from '../assets/ugabuga.png'
+import phone from '../assets/phone.png'
+
 import { Link } from "react-router-dom";
 const Main = () => {
     const contents = [
@@ -11,15 +16,15 @@ const Main = () => {
             title: "Bem-Vindo!",
             text: "texto1",
             link: "",
-            imgBack: "src/assets/BackgroundImg2.jpg"
+            imgBack: backgroundImg
         },
         {
             img: "",
-            img2: "src/assets/phone.png",
+            img2: phone,
             title: "Sobre nós",
             text: "Somos estudantes do ceap e com o nosso projeto temos o objetivo de mostrar o conceito de loja/provador virtual para o mundo",
             link: "",
-            imgBack: "src/assets/BackgroundImg2.jpg"
+            imgBack: backgroundImg2
 
         },
         {
@@ -28,7 +33,7 @@ const Main = () => {
             title: "Sobre o projeto",
             text: "Com a imagem da câmera do dispositivo, nosso algoritmo detecta o corpo humano e desenha a roupa desejada pelo usuário",
             link: "/Catalogo",
-            imgBack: "/E-mirror-site/assets/ugabuga.png"
+            imgBack: backgroundImg3
         }
     ]
 
