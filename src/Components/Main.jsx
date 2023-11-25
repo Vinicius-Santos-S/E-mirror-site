@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Main = () => {
     const contents = [
         {
-            img: "src/assets/.jpg",
+            img: logo,
             img2: "",
             title: "Bem-Vindo!",
             text: "texto1",
