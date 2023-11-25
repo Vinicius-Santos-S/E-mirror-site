@@ -6,12 +6,12 @@ import { Link } from "react-router-dom";
 const Main = () => {
     const contents = [
         {
-            img: "src/assets/Logo.png",
+            img: "../assets/Logo.png",
             img2: "",
             title: "Bem-Vindo!",
             text: "texto1",
             link: "",
-            imgBack: "src/assets/Logo.png"
+            imgBack: "../assets/Logo.png"
         },
         {
             img: "",
