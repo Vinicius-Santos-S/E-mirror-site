@@ -147,6 +147,7 @@ const Catalogo = () => {
     Camisa: "",
     Moletom: ""
   })
+  
   const [update, setUpdate] = useState(false)
 
   const [states, setStates] = useState({

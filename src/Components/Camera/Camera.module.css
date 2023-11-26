@@ -12,24 +12,19 @@
 }
 
 .CameraDiv canvas {
-    height: auto;
     width: 100%;
+    height: auto;
     border-radius: 15px;
     box-shadow: 2px 2px 6px 4px rgba(0,0,0,0.1);
+    border: 1px solid red;
 }
-
-.CanvasDiv {
-    display: flex;
-    height: 100%;
-    width: 100%;
-}
-
-
-
-
 
 @media (min-width: 0px) and (max-width: 480px) {
-
-
+    .CameraDiv canvas {
+        border: 1px solid black;
+        height: 90vh;
+        width: 200vw;
+        /* overflow:hidden; */
+    }
 
 }

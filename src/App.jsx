@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/E-mirror-site" element={<Home />} />
-          <Route path="/Catalogo" element={<Catalogo />} />
+          <Route path="/E-mirror-site/Catalogo" element={<Catalogo />} />
         </Routes>
       </BrowserRouter>
     </div>

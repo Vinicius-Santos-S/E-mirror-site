@@ -62,7 +62,7 @@ const Main = () => {
                         <p>{text}</p>
                         <a href="/Catalogo"></a>
                         <div className={Style["link-access-div"]}>
-                            <Link to="/Catalogo" relative="path">
+                            <Link to="/E-mirror-site/Catalogo" relative="path">
                                 Acessar o catálogo!
                             </Link>
                         </div>
